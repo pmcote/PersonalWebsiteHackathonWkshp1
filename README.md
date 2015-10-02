@@ -3,8 +3,14 @@
 * Download a toolkit for your command line
 * Make your github account/Log in to your account and set up your command line
 
+####Navigating from the Command Line
+Do we need this?
+
 ####Github Pages
-* Making a repository, which will host your personal website
+Creating your very own github pages site!
+* Create a new repository on Github! You can do this by clicking the little plus in the top right hand corner of the github website.
+* Name this repository *username*.github.io, where username is your username on github.
+* Go to your terminal and navigate to your directory that you want to keep your rad website codee in. Then type `git clone https://github.com/username/username.github.io`, replacing `username` with your username. This will create a local directory that is linked to your remote github repository. When you commit your changes locally and push to the remote master branch, they will magically be accessable if you point your browser to http://username.github.io! So exciting! So easy! Hooray!
 
 ####A Text Editor
 We'll be using the free trial of a text editor called Sublime Text. There are many other options for Text editors, but Sublime is really nice to start out with, and you can add lots of fancy extensions to make it fit your development style.
@@ -12,8 +18,27 @@ We'll be using the free trial of a text editor called Sublime Text. There are ma
 ####Aliasing your text editor(?)
 
 ####HTML basics
+To get started with your personal website, you need to make an HTML page. HTML is like the skeleton of your website.
+It lets you add stuff like words and images of cats and maybe even do a little formating.
+Now to make one for yourself!
+
+Open Sublime Text and create a new file. Save that file as `index.html` in your the directory you cloned from github.
 
 ####index.html
+```html
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Write Your Title Here</title>
+    <meta name="description" content="What is on this page?">
+    <meta name="author" content="This could be your name!">
+  </head>
+  <body>
+  </body>
+</html>
+```
 
 ####CSS basics
 
