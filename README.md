@@ -25,7 +25,7 @@ Now to make one for yourself!
 * Open Sublime Text and create a new file. Save that file as `index.html` in username.gihub.io directory you cloned from github.
 * Copy and paste the text under index.html below into your index.html file. This is a starting template that you can use to build the HTML of your website.
 * Each of the words in between `<>` are a type of element. When the name of an element like `head` is inside brackets like `<head>`, that is called a tag. You ignore everything in the `<head>` tag for the rest of this workshop. 
-* If you want to know more about basic HTML stucture and tags, this [link](http://www.w3schools.com/html/html_intro.asp) and the follwoing pages are a good place to start.
+* If you want to know more about basic HTML stucture and tags as you work on the hackathon this weekend, this [link](http://www.htmlgoodies.com/primers/html/article.php/3478131) or this [link](http://www.w3schools.com/html/html_intro.asp) and the follwoing pages are a good place to start.
 * The important tag for creating your website in this workshop is the `<body>` tag.
 
 ####index.html
