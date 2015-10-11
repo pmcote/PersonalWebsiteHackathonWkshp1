@@ -17,7 +17,7 @@ We'll be using the free trial of a text editor called Sublime Text. There are ma
 
 Download and install sublime text [here](http://www.sublimetext.com/).
 
-####Looking at Your Website
+####Looking at Your Website While Developing Locally
 `cd` to your `*username*.github.io` directory on your computer, and type `python -m SimpleHTTPServer` into the commandline. This starts a simple HTTP server that allows you to use a browser to view files in that directory. 
 
 Go to your browser and enter http://localhost:8000/ into a new tab.
@@ -46,11 +46,18 @@ Now to make one for yourself!
 HTML tags are opened when you type `<body>` and closed when you type `</body>`. All the text between those two tags will be classified as the element you selected when you made the tag. Now let's see how that works!
 
 To start working with HTML, there are a few useful elements that you need to know. Cut and paste each of these elements into the body of your `index.html` to try them out:
-*`<h1>I am a large header!</h1>` Any text that is surrounded with h1 elements will show up on your website as large bold text.
+* `<h1>I am a large header!</h1>` Any text that is surrounded with h1 elements will show up on your website as large bold text.
 * `<h3>I am a large header!</h3>` Any text that is surrounded with h3 elements will show up on your website as slightly smaller bold heading text.
-* See what happens if you make more headers with `<h5` or `<h6>` tags.
+* See what happens if you make more headers with `<h5>` or `<h6>` tags.
 * `<p>I'm a paragraph of text</p>` Any text that is surrounded with p elements will show up on your website as a paragraph of text.
+* `<a href="https://github.com/">Click me!</a>` This tag is called anchor, it creates a clickable link to another web page. Try changing the link.
+* Next we will introduce the `img` element, which confusingly does not have a closing tag.
+* `<img src="http://www.shareably.net/wp-content/uploads/2015/01/unique_cat_fur_1.jpg">` This will add an image of a cat to your web page. You can replace the source with a link to any photo on the web. You can also add a photo to your website directory on your computer and replace the current src with `src="yourphoto.jpg"`.
 * Now save your `index.html` page in sublime text, go to your browser, and refresh `localhost:8000` to see your work.
+
+Wow! So beautiful! Feel free to play with this a little bit.
+
+There are many more elements avaliable in HTML, but these are the basics you should need to make a basic personal website. To learn more, there are lots of free courses and references on the web. I would recommend [Codecademy](https://www.codecademy.com/tracks/web) for interactive learning and [HTMLDog](http://htmldog.com/) for reference. But there are literally thousands of good options. Both of these resources can also help you learn CSS, which I will go over breifly below!
 
 ####CSS basics
 
@@ -64,5 +71,6 @@ Even if you're already a web design wizard, you will still need to come up with 
 * What do you want the text on those pages to say?
 * What photos do you want on your webpage? Get those photos in your directory and then link them in your html.
 
-####Register a custom domain and set up forwarding from Github pages
+####Extra Links That You Can Use To Play with Web Design Stuff
+https://teach.mozilla.org/tools/
 
