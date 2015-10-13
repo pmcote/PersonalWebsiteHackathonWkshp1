@@ -87,6 +87,10 @@ body {
 
 Now that you have created your CSS file, you need to link the CSS styles to the HTML in your webpage. This means that the styles you add in your CSS will be applied to your HTML.
 
+Go back to your html file and inside the `<head>` tag, add `<link rel="stylesheet" href="customize.css">`. Now if you save your HTML and refresh your browser tab, you should see the changes.
+
+Practice and Exercises
+
 ##If you already know all about the above stuff. . .
 ####Work on your HTML
 Even if you're already a web design wizard, you will still need to come up with ideas for what you want to have on your web page, and discribe all of that information in HTML format.
@@ -96,5 +100,7 @@ Even if you're already a web design wizard, you will still need to come up with 
 * What photos do you want on your webpage? Get those photos in your directory and then link them in your html.
 
 ####Extra Links That You Can Use To Play with Web Design Stuff
-https://teach.mozilla.org/tools/
+* [Mozilla Tools and Web Dev Games](https://teach.mozilla.org/tools/)
+* [HTMLDog](http://htmldog.com/)
+* [Codecademy](https://www.codecademy.com/tracks/web)
 
