@@ -1,33 +1,21 @@
 ##Workshop 1: Getting Set Up
 ####Git and Github
-* Download a toolkit for your command line
-* Make your github account/Log in to your account and set up your command line
-
-####Navigating from the Command Line
-Do we need this?
+Create an account on [Github](https://github.com/) and follow the steps under [Setting Up Git](https://help.github.com/articles/set-up-git/) if you don't have Git on your computer already. Come talk to me if you have not used Git before.
 
 ####Github Pages
 Creating your very own github pages site!
 * Create a new repository on Github. You can do this by clicking the little plus in the top right hand corner of the github website.
 * Name this repository *username*.github.io, where username is your username on github. No need to initialize the repository with a README. Just click create.
-* Go to your terminal and navigate to your directory that you want to keep your rad website codee in. Then type `git clone https://github.com/username/username.github.io.git`, replacing `username` with your username. This will create a local directory that is linked to your remote github repository. When you commit your changes locally and push to the remote master branch, they will magically be accessable if you point your browser to http://username.github.io! So exciting! So easy! Hooray!
 
-####A Text Editor
-We'll be using the free trial of a text editor called Sublime Text. There are many other options for Text editors, but Sublime is really nice to start out with, and you can add lots of fancy extensions to make it fit your development style.
-
-Download and install sublime text [here](http://www.sublimetext.com/).
-
-####Looking at Your Website While Developing Locally
-`cd` to your `*username*.github.io` directory on your computer, and type `python -m SimpleHTTPServer` into the commandline. This starts a simple HTTP server that allows you to use a browser to view files in that directory. 
-
-Go to your browser and enter http://localhost:8000/ into a new tab.
+####Looking at Your Website While Developing
+After you commit the changes you are making on your text editor, you will be able to navigte to username.github.io in your browser and see what your website looks like.
 
 ####HTML basics
 To get started with your personal website, you need to make an HTML page. HTML is like the skeleton of your website.
 It lets you add stuff like words and images of cats and maybe even do a little formating.
 Now to make one for yourself!
 
-* Open Sublime Text and create a new file. Save that file as `index.html` in username.gihub.io directory you cloned from github.
+* Create a new file by clicking the plus sign after the name of your directory on github. Save that file as `index.html`.
 * Copy and paste the text under index.html below into your index.html file. This is a starting template that you can use to build the HTML of your website.
 * Each of the words in between `<>` are a type of element. When the name of an element like `head` is inside brackets like `<head>`, that is called a tag.
 * If you want to know more about basic HTML stucture and tags as you work on the hackathon this weekend, this [link](http://www.w3schools.com/html/html_intro.asp) and the following pages are a good place to start.
