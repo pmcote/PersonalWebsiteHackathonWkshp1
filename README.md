@@ -60,8 +60,32 @@ Wow! So beautiful! Feel free to play with this a little bit.
 There are many more elements avaliable in HTML, but these are the basics you should need to make a basic personal website. To learn more, there are lots of free courses and references on the web. I would recommend [Codecademy](https://www.codecademy.com/tracks/web) for interactive learning and [HTMLDog](http://htmldog.com/) for reference. But there are literally thousands of good options. Both of these resources can also help you learn CSS, which I will go over breifly below!
 
 ####CSS basics
+CSS (Cascading Style Sheets) is the magic tool that allows you to turn your website into something that looks like more than some text and images. 
+```css
+body {
+    font: arial;
+    font-size: 14px;
+    color: red;
+}
+```
+**Selectors** are how you *select* the HTML element you are going to style. You can select elements by name (`body`) or you can give your HTML elements classes (`.classname`) or ids(`#idname`) and select a very specific HTML element to style.
+
+**Properties** allow you to change the style of a part of the selected element like the `font`, `font-size`, or `color`. There are [many properties](http://htmldog.com/reference/cssproperties/) that you can style.
+
+**Values** are the styles that you give to each property, setting `font` to `arial`, for example.
+
+With this basic knowledge, you're ready to start playing around with CSS. Create a `customize.css` file in your website directory and copy and paste the following CSS.
 
 ####customize.css
+```css
+body {
+    font: arial;
+    font-size: 14px;
+    color: red;
+}
+```
+
+Now that you have created your CSS file, you need to link the CSS styles to the HTML in your webpage. This means that the styles you add in your CSS will be applied to your HTML.
 
 ##If you already know all about the above stuff. . .
 ####Work on your HTML
