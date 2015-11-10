@@ -40,14 +40,12 @@ To start working with HTML, there are a few useful elements that you need to kno
 | Element | Discription |
 |----------|-------------|
 |`<h1>I am a large header!</h1>` | Any text that is surrounded with h1 elements will show up on your website as large bold text.|
-|`<h3>I am a large header!</h3>` | Any text that is surrounded with h3 elements will show up on your website as slightly smaller bold heading text |
+|`<h3>I am a large header!</h3>` | Any text that is surrounded with h3 elements will show up on your website as slightly smaller bold heading text. See what happens if you make more headers with `<h5>` or `<h6>` tags.
+| `<p>I'm a paragraph of text</p>` | Any text that is surrounded with p elements will show up on your website as a paragraph of text.|
+|`<a href="https://github.com/">Click me!</a>` | This tag is called anchor, it creates a clickable link to another web page. Try changing the link. |
+|`<img src="http://www.shareably.net/wp-content/uploads/2015/01/unique_cat_fur_1.jpg">` |This will add an image of a cat to your web page. You can replace the source with a link to any photo on the web. You can also add a photo to your website directory on your computer and replace the current src with `src="yourphoto.jpg"`.|
 
-* See what happens if you make more headers with `<h5>` or `<h6>` tags.
-* `<p>I'm a paragraph of text</p>` Any text that is surrounded with p elements will show up on your website as a paragraph of text.
-* `<a href="https://github.com/">Click me!</a>` This tag is called anchor, it creates a clickable link to another web page. Try changing the link.
-* Next we will introduce the `img` element, which confusingly does not have a closing tag.
-* `<img src="http://www.shareably.net/wp-content/uploads/2015/01/unique_cat_fur_1.jpg">` This will add an image of a cat to your web page. You can replace the source with a link to any photo on the web. You can also add a photo to your website directory on your computer and replace the current src with `src="yourphoto.jpg"`.
-* Now save your `index.html` page in sublime text, go to your browser, and refresh `localhost:8000` to see your work.
+Now save your `index.html` page in sublime text, go to your browser, and refresh `localhost:8000` to see your work.
 
 Wow! So beautiful! Feel free to play with this a little bit.
 
