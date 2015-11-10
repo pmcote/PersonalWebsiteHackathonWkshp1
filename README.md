@@ -7,6 +7,13 @@ Creating your very own github pages site!
 * Create a new repository on Github. You can do this by clicking the little plus in the top right hand corner of the github website.
 * Name this repository *username*.github.io, where username is your username on github. No need to initialize the repository with a README. Just click create.
 
+####Where Do You Want to Code
+There are two options that will work really well for this hackathon:
+1. If you want to, you can create and edit your personal website on the github website. Once you have created your website, you can click the plus botton to the right of your repository name to create a new file. Then you can click on the file name and edit it at any point by clicking the little pen icon in the top right corner of the file. To save a file, just commit to master at the bottom of the webpage.
+2. Alternatively, if you are comfortable with a text editor (Sublime Text or similar) and the using Git on the commandline, you can use a text editor to create your files and then push them to Github to make your website.
+
+We can help you with either option! Just ask :)
+
 ####Looking at Your Website While Developing
 After you commit the changes you are making on your text editor or in the github editor, you will be able to navigte to username.github.io in your browser and see what your website looks like.
 
@@ -17,7 +24,7 @@ To get started with your personal website, you need to make an HTML page. HTML i
 It lets you add stuff like words and images of cats and maybe even do a little formating.
 Now to make one for yourself!
 
-* Create a new file by clicking the plus sign after the name of your directory on github. Save that file as `index.html`.
+* Create a new file in your editor. Save that file as `index.html`.
 * Copy and paste the text under index.html below into your index.html file. This is a starting template that you can use to build the HTML of your website.
 * Each of the words in between `<>` are a type of element. When the name of an element like `head` is inside brackets like `<head>`, that is called a tag.
 * If you want to know more about basic HTML stucture and tags as you work on the hackathon this weekend, this [link](http://www.w3schools.com/html/html_intro.asp) and the following pages are a good place to start.
