@@ -8,7 +8,9 @@ Creating your very own github pages site!
 * Name this repository *username*.github.io, where username is your username on github. No need to initialize the repository with a README. Just click create.
 
 ####Looking at Your Website While Developing
-After you commit the changes you are making on your text editor, you will be able to navigte to username.github.io in your browser and see what your website looks like.
+After you commit the changes you are making on your text editor or in the github editor, you will be able to navigte to username.github.io in your browser and see what your website looks like.
+
+If you are developing with a text editor and the command line, you can use [python's simple HTTP server}(http://www.linuxjournal.com/content/tech-tip-really-simple-http-server-python) to serve your website so you don't need to commit and push every time to see your changes. Let me know if you have questions about useing this.
 
 ####HTML basics
 To get started with your personal website, you need to make an HTML page. HTML is like the skeleton of your website.
@@ -34,7 +36,9 @@ Now to make one for yourself!
 HTML tags are opened when you type `<body>` and closed when you type `</body>`. All the text between those two tags will be classified as the element you selected when you made the tag. Now let's see how that works!
 
 To start working with HTML, there are a few useful elements that you need to know. Cut and paste each of these elements into the body of your `index.html` to try them out:
-* `<h1>I am a large header!</h1>` Any text that is surrounded with h1 elements will show up on your website as large bold text.
+
+|`<h1>I am a large header!</h1>` Any text that is surrounded with h1 elements will show up on your website as large bold text.|
+
 * `<h3>I am a large header!</h3>` Any text that is surrounded with h3 elements will show up on your website as slightly smaller bold heading text.
 * See what happens if you make more headers with `<h5>` or `<h6>` tags.
 * `<p>I'm a paragraph of text</p>` Any text that is surrounded with p elements will show up on your website as a paragraph of text.
@@ -45,7 +49,7 @@ To start working with HTML, there are a few useful elements that you need to kno
 
 Wow! So beautiful! Feel free to play with this a little bit.
 
-There are many more elements avaliable in HTML, but these are the basics you should need to make a basic personal website. To learn more, there are lots of free courses and references on the web. I would recommend [Codecademy](https://www.codecademy.com/tracks/web) for interactive learning and [HTMLDog](http://htmldog.com/) for reference. But there are literally thousands of good options. Both of these resources can also help you learn CSS, which I will go over breifly below!
+There are many more elements avaliable in HTML, but these are the basics you should need to make a personal website. To learn more, there are lots of free courses and references on the web. I would recommend [Codecademy](https://www.codecademy.com/tracks/web) for interactive learning and [HTMLDog](http://htmldog.com/) for reference. But there are literally thousands of good options. Both of these resources can also help you learn CSS, which I will go over breifly below!
 
 ####CSS basics
 CSS (Cascading Style Sheets) is the magic tool that allows you to turn your website into something that looks like more than some text and images. 
@@ -58,14 +62,7 @@ selector {
     ...
 }
 ```
-Example CSS styling the body tag  
-```css
-body {
-    font: arial;
-    font-size: 14px;
-    color: red;
-}
-```
+
 **Selectors** are how you *select* the HTML element you are going to style. You can select elements by name (`body`) or you can give your HTML elements classes (`.classname`) or ids(`#idname`) and select a very specific HTML element to style.
 
 **Properties** allow you to change the style of a part of the selected element like the `font`, `font-size`, or `color`. There are [many properties](http://htmldog.com/reference/cssproperties/) that you can style.
@@ -81,7 +78,7 @@ Values are often **units**, like when you want to discribe the width of a photo.
 | rem | Relative to the font-size of the <html> or "root" element (0.5em is half of the root font-size) |
 | % | Percent of the parent element along the relevant dimension (horizontally or vertically) |
 
-With this basic knowledge, you're ready to start playing around with CSS. Create a `customize.css` file in your website directory and copy and paste the following CSS.
+Make a customize.css file and past the following body selector in to get started with CSS.
 
 ####customize.css
 ```css
@@ -94,8 +91,9 @@ body {
 
 Now that you have created your CSS file, you need to link the CSS styles to the HTML in your webpage. This means that the styles you add in your CSS will be applied to your HTML.
 
-Go back to your html file and inside the `<head>` tag, add `<link rel="stylesheet" href="customize.css">`. Now if you save your HTML and refresh your browser tab, you should see the changes.
+Go back to your html file and inside the `<head>` element, add `<link rel="stylesheet" href="customize.css">`. Now if you save your HTML and refresh your browser tab, you should see the changes.
 
+With this basic knowledge, you're ready to start playing around with CSS. Try using different slectors to play around with the properties of different types of html elements.
 
 ####Building your website
 Even if you're already a web design wizard, you will still need to come up with ideas for what you want to have on your web page, and discribe all of that information in HTML format.
