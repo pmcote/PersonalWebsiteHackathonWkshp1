@@ -8,7 +8,7 @@ Creating your very own github pages site!
 * Name this repository *username*.github.io, where username is your username on github. No need to initialize the repository with a README. Just click create.
 
 ####Where Do You Want to Code
-There are two options that will work really well for this hackathon:\
+There are two options that will work really well for this hackathon:
 
 1. If you want to, you can create and edit your personal website on the github website. Once you have created your website, you can click the plus botton to the right of your repository name to create a new file. Then you can click on the file name and edit it at any point by clicking the little pen icon in the top right corner of the file. To save a file, just commit to master at the bottom of the webpage.
 2. Alternatively, if you are comfortable with a text editor (Sublime Text or similar) and the using Git on the commandline, you can use a text editor to create your files and then push them to Github to make your website.
