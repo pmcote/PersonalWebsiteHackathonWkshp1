@@ -5,7 +5,7 @@ Create an account on [Github](https://github.com/) and follow the steps under [S
 ####Github Pages
 Creating your very own github pages site!
 * Create a new repository on Github. You can do this by clicking the little plus in the top right hand corner of the github website.
-* Name this repository *username*.github.io, where username is your username on github. No need to initialize the repository with a README. Just click create.
+* Name this repository *username*.github.io, where username is your username on github. Check the box to initialize with a README.
 
 ####Where Do You Want to Code
 There are two options that will work really well for this hackathon:
