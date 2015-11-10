@@ -38,8 +38,8 @@ HTML tags are opened when you type `<body>` and closed when you type `</body>`. 
 To start working with HTML, there are a few useful elements that you need to know. Cut and paste each of these elements into the body of your `index.html` to try them out:
 
 |`<h1>I am a large header!</h1>` | Any text that is surrounded with h1 elements will show up on your website as large bold text.|
+|`<h3>I am a large header!</h3>` | Any text that is surrounded with h3 elements will show up on your website as slightly smaller bold heading text |
 
-* `<h3>I am a large header!</h3>` Any text that is surrounded with h3 elements will show up on your website as slightly smaller bold heading text.
 * See what happens if you make more headers with `<h5>` or `<h6>` tags.
 * `<p>I'm a paragraph of text</p>` Any text that is surrounded with p elements will show up on your website as a paragraph of text.
 * `<a href="https://github.com/">Click me!</a>` This tag is called anchor, it creates a clickable link to another web page. Try changing the link.
