@@ -49,6 +49,16 @@ There are many more elements avaliable in HTML, but these are the basics you sho
 
 ####CSS basics
 CSS (Cascading Style Sheets) is the magic tool that allows you to turn your website into something that looks like more than some text and images. 
+
+Basic CSS Template  
+```css
+selector {
+    property: value;
+    property: value;
+    ...
+}
+```
+Example CSS styling the body tag  
 ```css
 body {
     font: arial;
@@ -61,6 +71,14 @@ body {
 **Properties** allow you to change the style of a part of the selected element like the `font`, `font-size`, or `color`. There are [many properties](http://htmldog.com/reference/cssproperties/) that you can style.
 
 **Values** are the styles that you give to each property, setting `font` to `arial`, for example.
+
+Values are often **units**, like when you want to discribe the width of a photo. 
+| Unit  | Discription |
+|----------|-------------|
+| px |  Usually a single pixel on the client's screen (a line of width 1px is guaranteed to be "sharp and visible")|
+| em | Relative to the font-size of the element (0.5em is half of the current font-size) |
+| rem | Relative to the font-size of the <html> or "root" element (0.5em is half of the root font-size) |
+| % | Percent of the parent element along the relevant dimension (horizontally or vertically) |
 
 With this basic knowledge, you're ready to start playing around with CSS. Create a `customize.css` file in your website directory and copy and paste the following CSS.
 
@@ -77,15 +95,18 @@ Now that you have created your CSS file, you need to link the CSS styles to the 
 
 Go back to your html file and inside the `<head>` tag, add `<link rel="stylesheet" href="customize.css">`. Now if you save your HTML and refresh your browser tab, you should see the changes.
 
-Practice and Exercises
 
-##If you already know all about the above stuff. . .
-####Work on your HTML
+####Building your website
 Even if you're already a web design wizard, you will still need to come up with ideas for what you want to have on your web page, and discribe all of that information in HTML format.
 * What information do you want to display on your website?
 * How many pages do you want to have? Some ideas include: Portfolio/Projects, Resume, About me, etc. 
 * What do you want the text on those pages to say?
 * What photos do you want on your webpage? Get those photos in your directory and then link them in your html.
+
+####Filling in the Gaps
+This tutorial was meant to be basic, and the main goal was to enable you to use bootstrap to make your personal website with minimal confusion. Because we want to get you up and running as quickly as possible, there were a few gaps. Here are some suggusted tutorials to help with that.
+* Intro to sizing things and making layouts in CSS with the [Box Model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model).
+* I reccomend Codecademy's HTML and CSS tutorial for their through explaination and projects about the Box Model.
 
 ####Extra Links That You Can Use To Play with Web Design Stuff
 * [Mozilla Tools and Web Dev Games](https://teach.mozilla.org/tools/)
