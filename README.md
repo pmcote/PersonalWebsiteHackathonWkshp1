@@ -36,6 +36,7 @@ Now to make one for yourself!
 HTML tags are opened when you type `<body>` and closed when you type `</body>`. All the text between those two tags will be classified as the element you selected when you made the tag. Now let's see how that works!
 
 To start working with HTML, there are a few useful elements that you need to know. Cut and paste each of these elements into the body of your `index.html` to try them out:
+
 | Element | Discription |
 |----------|-------------|
 |`<h1>I am a large header!</h1>` | Any text that is surrounded with h1 elements will show up on your website as large bold text.|
