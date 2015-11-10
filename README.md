@@ -73,6 +73,7 @@ body {
 **Values** are the styles that you give to each property, setting `font` to `arial`, for example.
 
 Values are often **units**, like when you want to discribe the width of a photo. 
+
 | Unit  | Discription |
 |----------|-------------|
 | px |  Usually a single pixel on the client's screen (a line of width 1px is guaranteed to be "sharp and visible")|
